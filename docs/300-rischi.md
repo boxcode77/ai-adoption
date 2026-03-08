@@ -56,6 +56,7 @@
 
 ### R-01 · Trasmissione di dati riservati ai provider cloud AI
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Critico |
@@ -77,6 +78,7 @@ La [survey CSO Online 2025](https://www.csoonline.com/article/4111384/top-5-real
 
 ### R-02 · Violazione GDPR per trattamento dati personali via AI
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Alto |
@@ -92,6 +94,7 @@ Il GDPR si applica a qualsiasi trattamento di dati personali, incluso quello med
 
 ### R-03 · Contribuzione involontaria al training dei modelli
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Alto |
@@ -110,10 +113,10 @@ GitHub Copilot
 - Copilot Individual: può usare i dati per il training (nessuna garanzia esplicita di esclusione)
 - Copilot Business e Copilot Enterprise: GitHub dichiara esplicitamente sulla https://github.com/features/copilot/copilot-business: "GitHub does not use either Copilot Business or Enterprise data to train its models." Nessun dato degli utenti viene usato per training.
 
-|---|---|
-|Tool| Piano gratuito/individuale| Piano Business/Enterprise|
-|**Claude / Claude Code**|Training abilitato (opt-out disponibile)|Nessun training — garantito contrattualmente|
-|**GitHub Copilot**|Training potenzialmente abilitato|Nessun training — garantito esplicitamente|
+| Tool | Piano gratuito/individuale | Piano Business/Enterprise |
+|---|---|---|
+| **Claude / Claude Code** | Training abilitato (opt-out disponibile) | Nessun training — garantito contrattualmente |
+| **GitHub Copilot** | Training potenzialmente abilitato | Nessun training — garantito esplicitamente |
 
 
 **Mitigazione:**
@@ -125,6 +128,7 @@ GitHub Copilot
 
 ### R-04 · Esfiltrazione di dati tramite AI agent compromesso
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Critico |
@@ -144,6 +148,7 @@ Nel [caso documentato da Palo Alto Networks Unit 42 (2025)](https://stytch.com/b
 
 ### R-05 · Introduzione sistematica di vulnerabilità nel codice generato
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Alto |
@@ -161,6 +166,7 @@ I modelli LLM ottimizzano per la plausibilità sintattica, non per la correttezz
 
 ### R-06 · Accumulo accelerato di debito tecnico di sicurezza
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Alto |
@@ -176,6 +182,7 @@ La velocità di produzione del codice AI può superare la capacità del team di 
 
 ### R-07 · Dipendenze non verificate suggerite dall'AI
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Alto |
@@ -191,6 +198,7 @@ I modelli AI suggeriscono package e librerie basandosi sul training, che può es
 
 ### R-08 · Package AI contraffatti (Typosquatting)
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Critico |
@@ -208,6 +216,7 @@ Attori malevoli registrano package o estensioni con nomi quasi identici a tool A
 
 ### R-09 · Prompt Injection su AI Agent
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Critico |
@@ -243,6 +252,7 @@ L'agent non distingue tra contenuto da elaborare e istruzioni da eseguire — tu
 
 ### R-10 · Vulnerabilità nel protocollo MCP (Remote Code Execution)
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Critico |
@@ -258,6 +268,7 @@ Il Model Context Protocol — infrastruttura usata dagli AI agent per connetters
 
 ### R-11 · Tool Poisoning nella supply chain MCP
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Critico |
@@ -273,6 +284,7 @@ Package MCP malevoli, distribuiti attraverso registry pubblici, possono intercet
 
 ### R-12 · Permessi eccessivi degli AI Agent
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Alto |
@@ -288,6 +300,7 @@ Per comodità, gli agenti AI vengono configurati con accesso molto più ampio de
 
 ### R-13 · Velocità come amplificatore del danno
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Alto |
@@ -305,6 +318,7 @@ Un AI agent che opera su istruzioni errate o prompt iniettati può modificare de
 
 ### R-14 · Shadow AI — uso non autorizzato di strumenti AI
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Alto |
@@ -320,6 +334,7 @@ Il **49% dei developer usa strumenti AI non approvati** dall'azienda ([CSO Onlin
 
 ### R-15 · Erosione della proprietà intellettuale
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Alto |
@@ -335,6 +350,7 @@ Il codice sorgente, le architetture e le logiche di business trasmesse ai modell
 
 ### R-16 · Deskilling e dipendenza eccessiva dall'AI
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Medio |
@@ -350,6 +366,7 @@ L'uso non strutturato dell'AI può portare a una riduzione delle competenze tecn
 
 ### R-17 · Perdita di controllo sui processi decisionali
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Bassa |
 | **Impatto** | Alto |
@@ -367,6 +384,7 @@ In assenza di governance, decisioni tecniche rilevanti — scelta di architettur
 
 ### R-18 · Hallucination e codice non funzionante
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Alta |
 | **Impatto** | Medio |
@@ -382,6 +400,7 @@ I modelli AI generano output plausibili ma errati: API inesistenti, parametri sb
 
 ### R-19 · Propagazione di errori sistematici
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Alto |
@@ -397,6 +416,7 @@ Gli LLM replicano pattern dal training. Un pattern errato — un'implementazione
 
 ### R-20 · Difficoltà di debugging e manutenzione
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Medio |
@@ -414,6 +434,7 @@ Il codice AI-generato può essere sintatticamente corretto ma strutturalmente op
 
 ### R-21 · Non conformità all'EU AI Act
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Alto |
@@ -429,6 +450,7 @@ L'[EU AI Act](https://digital-strategy.ec.europa.eu/en/policies/regulatory-frame
 
 ### R-22 · Ambiguità sul copyright del codice AI-generato
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Medio |
@@ -457,6 +479,7 @@ Alcuni provider enterprise offrono una garanzia legale chiamata **IP Indemnity**
 
 ### R-23 · Esclusione da gare e contratti enterprise
 
+| Parametro | Valore |
 |---|---|
 | **Probabilità** | Media |
 | **Impatto** | Alto |
@@ -480,7 +503,7 @@ Clienti enterprise e partner commerciali iniziano a richiedere evidenza di gover
 Costruiamo una tabella riepilogativa:
 
 | ID | Rischio | Categoria | Probabilità | Impatto | Rischio |
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | R-01 | Trasmissione dati riservati ai provider cloud | Dati | Alta | Critico | 9 |
 | R-02 | Violazione GDPR per trattamento dati via AI | Dati | Alta | Alto | 6 |
 | R-03 | Contribuzione involontaria al training dei modelli | Dati | Media | Alto | 4 |
