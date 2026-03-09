@@ -94,10 +94,10 @@ docs/
   ├── 100-utilizzo.md                   ← Aree di utilizzo e casi d'uso
   ├── 200-comparativa.md                ← Claude Code vs GitHub Copilot
   ├── 300-rischi.md                     ← Catalogo dei rischi (23 rischi)
-  ├── 310-potenziali-bugs.md            ← Vulnerabilità nel codice AI-generato
-  ├── 400-governance.md                 ← Governance e policy aziendale
-  ├── 500-piano-di-adozione.md          ← Roadmap e piano di adozione
-  ├── 900-conclusioni.md                ← Conclusioni e action items
+  ├── 400-potenziali-bugs.md            ← Vulnerabilità nel codice AI-generato
+  ├── 500-governance.md                 ← Governance e policy aziendale
+  ├── 600-piano-di-adozione.md          ← Roadmap e piano di adozione
+  ├── 700-conclusioni.md                ← Conclusioni e action items
   ├── 1000-analisi-produttivita.md      ← Annex 1: dati di produttività
   ├── 1100-best-practices-copilot.md    ← Annex 2: best practices GitHub Copilot
   ├── 1200-best-practices-claude-code.md ← Annex 3: best practices Claude Code
